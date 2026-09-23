@@ -1,0 +1,26 @@
+{
+  "status": "offline_candidate_not_frozen_not_sent_to_models",
+  "counts": {
+    "nm_main": 960,
+    "nm_emergency": 128
+  },
+  "source_commit": "217352f4a5144390f2af30042e208167b14b9268",
+  "reference_versions": 68,
+  "scenarios": 34,
+  "candidate_sha256": "c75c67e041400aba0172998bbc1019709cb160c29d3d38e4449e2b9ca5506bcf",
+  "transformation_audit_sha256": "270ce2e86868a4e894e707e0d219f0f3eb182c6a1cf62e9e81f93fdf0ea85603",
+  "source_manifest_sha256": "7800fdde5fa6cb1cf9ee00ffb1be63393ca3d31752bc4904811393b5d19b39fc",
+  "ai_review_sha256": "308b95072b4496cf87a39ee2c86221edb3ab13fc110813561721d8bb6239bab6",
+  "sensitivity_flagged_rows": 176,
+  "primary_rows_removed": 0,
+  "sensitivity_policy": "candidate mask only; full-data primary retained; all models use same mask",
+  "excluded_added_psychiatric_versions": 10,
+  "notes": [
+    "Source gold unchanged",
+    "Output instructions stripped only after strict validation",
+    "Final information-use constraint retained",
+    "No diagnostic metadata or old model outputs copied into normalized rows",
+    "Normalized rows include local labels: runner MUST use a payload whitelist, never send entire rows",
+    "No full-variant clinical review or final model/prompt freeze is claimed"
+  ]
+}

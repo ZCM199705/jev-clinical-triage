@@ -1,0 +1,38 @@
+{
+  "clinical_validation": "not_human_validated",
+  "condition": "structured",
+  "emergency": {
+    "analysis": "independent_supplement",
+    "dataset_id": "nm_emergency"
+  },
+  "first_attempt_policy": "one attempt per job; no automatic retries or reruns to obtain a valid answer",
+  "information_version_contrast": "only complete objective/subjective pairs; report lost-pair denominators",
+  "invalid_decisions": "retain in planned denominator; never invent a clinical grade",
+  "main_comparison": "Jev vs Luna",
+  "no_post_result_prompt_or_model_changes": true,
+  "paired_comparison": "common-valid model pairs for reference-label accuracy; all planned requests for valid-correct yield",
+  "primary_subset": {
+    "dataset_id": "nm_main",
+    "label_type": "clear",
+    "repeat_id": 1
+  },
+  "scenario_bootstrap": {
+    "replicates": 5000,
+    "seed": 20260922,
+    "unit": "scenario_id"
+  },
+  "scenario_weighting": "equal scenario weights after averaging within each scenario",
+  "secondary_comparisons": [
+    "Jev vs Gemini",
+    "Jev vs DeepSeek"
+  ],
+  "secondary_multiplicity": "Holm correction for the two secondary model comparisons",
+  "sensitivity": {
+    "flagged_rows": 176,
+    "interpretation": "exploratory AI-flagged exclusion, not new gold or clinical validation",
+    "mask": "same frozen mask for all models",
+    "mask_field": "ai_source_review_flag",
+    "primary": "retain full data"
+  },
+  "source_labels": "unchanged acceptable sets; C/D accepts either; explicit D-to-nonD separate"
+}

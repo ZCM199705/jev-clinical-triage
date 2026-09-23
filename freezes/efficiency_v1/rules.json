@@ -1,0 +1,25 @@
+{
+  "admission_spacing_seconds": {
+    "jev": 0.06
+  },
+  "fatal_cost_or_identity": true,
+  "fatal_http": [
+    402,
+    429
+  ],
+  "levels": [
+    1,
+    4,
+    8,
+    16,
+    32
+  ],
+  "measured_per_cell": 200,
+  "no_retry": true,
+  "rate_limit_interpretation": "Jev <=16.67 admissions/s; conservative below documented1200RPM. Concurrency is a ceiling; record realized peak. Other providers halt on429.",
+  "seed": 20260923,
+  "stage": "efficiency_v1",
+  "three_consecutive_transport_errors": true,
+  "warmups_per_cell": 5,
+  "waves": 3
+}

@@ -1,0 +1,43 @@
+{
+  "admission_spacing_seconds": {
+    "jev": 0.06
+  },
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-09-23T01:46:07.789938+00:00",
+  "file_hashes": {
+    "cases.jsonl": "a1c9fd2130eeecc18f36a585978a085ef45acef03138b42d8a3a30f39275923d",
+    "cells.json": "eb45d27c48052690ea63a5b276a111a6b0cbada021b3fa1603c920392b60aebe",
+    "jobs.jsonl": "17a963d40aead6bcb82f362957b56e185925e9105324a21f537bb2272153b717",
+    "models.json": "56a90401ee3847b446f956ccc77822497a2bff52ff474123248bcf31053adc91",
+    "protocol.md": "8499cb64a5c8541cfeb8b14a1d085d48631ecfe452c6dc8bc2fb52dc73f4eb0e",
+    "rules.json": "3560f84690e4f3928515f5918a775a081c047235269b3b8946b9074fe111edf4",
+    "source.json": "0c15bdfa73a21703b9999c733b4dda92ca6f67e50fa7416780f97ff4b9f0bc85"
+  },
+  "freeze_digest": "1b3035f898d988db7c62517e2d51bdc6608be30ef2044e922d714d90672a3342",
+  "max_output_tokens": 4096,
+  "n_cells": 60,
+  "n_jobs": 12300,
+  "preflight_evidence": {
+    "reports/preflight/efficiency_deepseek_public.json": "fab49969a68a311c342f8bf9d3cacf3feec36dadf995be399cd057ba2da7ab08",
+    "reports/preflight/efficiency_live_preflight.json": "e85d34f6381da3148e03f7561132eee52b115b889b701a223d9af41a69d9d8ba",
+    "reports/preflight/efficiency_openrouter_public.json": "e70e8b04dd3087809fced04d13d35a1856b90e46820842faf11f8f3e181e6643",
+    "reports/preflight/efficiency_typesafe_limits.json": "0fbf81a5ab7714a229f08d8182e85f42d147822a48c1e67249de360cf4e814f0"
+  },
+  "schedule_seed": 20260923,
+  "schema_version": 1,
+  "socket_timeout_seconds": 50,
+  "software_hashes": {
+    "runtime/adapters.py": "cc82a5ec7710753110069a3e6fa6bae8ed4f6c8f03e8bbac5d83bf420f09f1ef",
+    "runtime/formal_plan.py": "3283520a1768551d8fecdd3bfc133df31c3e499880b81e9d3c8a6393fcde019e",
+    "runtime/formal_runner.py": "a3177d1243210dd64dcb3e2b5a6d732751ccd15709c52d84d7a8f41ecaa4c3ae",
+    "runtime/project_ledger.py": "9350a49f5f538edd3e7209c3afff2bac57b7572f47005cf851d253fba45ff3d5",
+    "scripts/freeze_efficiency.py": "96986026d4deccbf4eb37da815c3256899151f6bf4fe386d394317aba136a232",
+    "scripts/run_efficiency.py": "c098d7553ec4fff6850fb2b80eeaabe575244e497fec93d14b19731569e5e66f",
+    "supplements/efficiency_plan.py": "7b0e7ad907f8a114f13f357b0abd9a023705837f69adb4ede6eb8d55d084a1da"
+  },
+  "source_freeze_digest": "7c98a0193ca5f83bb84210ac42a84a7d1453af63f9afebcc8f224fc64c5ca194",
+  "stage": "efficiency_v1",
+  "study_id": "jev_triage_20260922",
+  "total_reservation_usd": "66.924705",
+  "total_timeout_seconds": 75
+}

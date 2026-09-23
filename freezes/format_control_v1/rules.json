@@ -1,0 +1,19 @@
+{
+  "clinical_accuracy_claim": false,
+  "conditions": [
+    "explain_options",
+    "natural_language"
+  ],
+  "max_output_tokens": 4096,
+  "n_cases": 68,
+  "n_jobs": 408,
+  "natural_language_coding": "exploratory; no human review; unresolved coding remains unresolved",
+  "no_post_result_changes": true,
+  "roles": [
+    "luna",
+    "gemini",
+    "deepseek"
+  ],
+  "same_case_text_as_structured_rounds": true,
+  "study": "format_control"
+}

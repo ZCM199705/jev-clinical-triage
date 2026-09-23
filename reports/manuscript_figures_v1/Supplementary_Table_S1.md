@@ -1,0 +1,18 @@
+# Supplementary Table S1 | Historical product and current API methods
+
+| Dimension | Historical ChatGPT Health | Current API experiment | Interpretation and limitations |
+|---|---|---|---|
+| Collection period | 9–11 January 2026 | September 2026 | Noncontemporaneous; no cross-period significance testing. |
+| Interface and product | ChatGPT Health web product | Frozen API endpoints via OpenRouter or DeepSeek direct | Web product packaging and hidden instructions are not reproduced by a base-model API. |
+| Model identity | gpt-5-mini thinking, as described by the source paper/data dictionary | JEV 1.13; GPT-5.6 Luna; Gemini 3.1 Flash Lite; DeepSeek V4.1 Flash; full frozen identifiers in legends | An API named gpt-5-mini is not assumed equivalent to ChatGPT Health. |
+| Main and supplement inputs | 960 main rows / 30 scenarios plus 128 emergency rows / 4 scenarios | Same 1,088 normalized clinical input variants in each round | Composite-key joins and body/reference checks all passed. Original/Expanded overlap is counted once; 160 psychological-extension rows excluded. |
+| Prompt and response format | Web prompt asks for grade, explanation and confidence | JEV classification/probabilities and frozen structured JSON for API comparators | Clinical body matches after removal of the historical output template; full prompts are not identical. |
+| Output coding | Original author-provided llm_triage; response_raw preserved | Frozen parsers and response contracts; all technical failures retained | No new model recoding of historical outputs and no claim of independent clinical adjudication. |
+| Reference scoring in this supplement | Rescored against current frozen acceptable-label sets | Prediction must belong to its input-specific acceptable-label set | Set scoring differs from accepting any grade at or above the minimum. D-only to C remains undertriage. |
+| Repeat collection | One released answer per input; source describes fresh sessions without regeneration | Three rounds on identical main/supplement inputs | Historical three-round stability is not available. |
+| Probability measures | Self-reported confidence retained as source text; no JEV-style calibration | JEV class probabilities, Brier, NLL and exploratory risk–coverage | Historical confidence is not substituted for comparable four-class probabilities. |
+| Latency, throughput and cost | Not available for this audit | Separate controlled service experiment: 60 complete cells, 12,000 measured requests; 300 warmups excluded | No invented historical latency, throughput, price or cost-effectiveness comparison. |
+| Statistical role | Descriptive historical product reference | First-round clear-label JEV–Luna primary; secondary and exploratory analyses as specified | Historical outputs are not added to confirmatory tests or presented as independent external validation. |
+| Original-result checks | Explicit D undertriage 33/64 reproduced; ambiguous set agreement 462/480 = 96.25% | Current acceptable-set definitions applied unchanged | Published ambiguous-case text 96.0% is not reproduced by set scoring or floor-only 477/480 = 99.375%; unresolved discrepancy retained. |
+
+Sources: [original Methods](https://www.nature.com/articles/s41591-026-04297-7), [public data](https://github.com/ashwinra-code/gpt-health-eval), frozen project manifests. Historical repository revision: `217352f4a5144390f2af30042e208167b14b9268`; file hashes in historical `provenance.json`.

@@ -1,0 +1,40 @@
+{
+  "connect_timeout_seconds": 10,
+  "created_at": "2026-09-22T07:09:51.849679+00:00",
+  "file_hashes": {
+    "cases.jsonl": "c75c67e041400aba0172998bbc1019709cb160c29d3d38e4449e2b9ca5506bcf",
+    "jobs.jsonl": "1d94365d04c8ecc9bd563e4de96c6f5c89945b6e339841c16402d6501e970df4",
+    "models.json": "56a90401ee3847b446f956ccc77822497a2bff52ff474123248bcf31053adc91",
+    "protocol.md": "ea4c9eae5e7252ceeb41ebdb0e8a1d4a068eab6901d9ef4d222d7007ea4b2d22",
+    "rules.json": "b1ba4ae35663d83883cb3d3bb4ffef18f042622f9cb96401cb53d0844ac57882"
+  },
+  "freeze_digest": "b79be03df2556f495eb229195149ee19fdb72d5dd1a2966ba499c1789d2b6fb2",
+  "max_attempts_per_job": 1,
+  "max_output_tokens": 4096,
+  "n_jobs": 4352,
+  "per_model_concurrency": 1,
+  "repeat_id": 2,
+  "round_label": "structured_repeat_2",
+  "schedule_seed": 20260924,
+  "schema_version": 1,
+  "socket_timeout_seconds": 50,
+  "software_hashes": {
+    "analysis/__init__.py": "dd321a92f385569292f005960c274d76911bf5c0c2b7ee14e4ea84844b9f00c3",
+    "analysis/paired.py": "06d7d9254b322aff53c2eed7f137b89ecdaf96004d4c1b8115eccba5c30a37a7",
+    "analysis/scoring.py": "3e00d91f73f4299e999f7e2c31e24537422fd1d09b97b36fa6e5c1530cff8305",
+    "runtime/__init__.py": "6d3b62c4d0f6157b913071371870bb8d54dca70e6348e242d10aa101fd7823e1",
+    "runtime/adapters.py": "cc82a5ec7710753110069a3e6fa6bae8ed4f6c8f03e8bbac5d83bf420f09f1ef",
+    "runtime/formal_plan.py": "3283520a1768551d8fecdd3bfc133df31c3e499880b81e9d3c8a6393fcde019e",
+    "runtime/formal_runner.py": "a3177d1243210dd64dcb3e2b5a6d732751ccd15709c52d84d7a8f41ecaa4c3ae",
+    "runtime/project_ledger.py": "9350a49f5f538edd3e7209c3afff2bac57b7572f47005cf851d253fba45ff3d5"
+  },
+  "source_candidate_sha256": "c75c67e041400aba0172998bbc1019709cb160c29d3d38e4449e2b9ca5506bcf",
+  "source_counts": {
+    "reference_versions": 68,
+    "rows": 1088,
+    "scenarios": 34
+  },
+  "study_id": "jev_triage_20260922",
+  "total_reservation_usd": "23.681625",
+  "total_timeout_seconds": 75
+}

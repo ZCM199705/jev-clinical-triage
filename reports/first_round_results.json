@@ -1,0 +1,1226 @@
+{
+  "study_id": "jev_triage_20260922",
+  "clinical_safety_claim": false,
+  "primary": "main_clear",
+  "layers": {
+    "main_clear": {
+      "models": {
+        "jev": {
+          "planned": 480,
+          "valid": 476,
+          "invalid_or_missing": 4,
+          "source_label_acceptable": 353,
+          "source_label_acceptable_rate": 0.7415966386554622,
+          "scenario_equal_weight_valid_accuracy": 0.7436827956989248,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        },
+        "luna": {
+          "planned": 480,
+          "valid": 480,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 301,
+          "source_label_acceptable_rate": 0.6270833333333333,
+          "scenario_equal_weight_valid_accuracy": 0.6270833333333333,
+          "explicit_D_to_nonD": 11,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        },
+        "gemini": {
+          "planned": 480,
+          "valid": 480,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 285,
+          "source_label_acceptable_rate": 0.59375,
+          "scenario_equal_weight_valid_accuracy": 0.59375,
+          "explicit_D_to_nonD": 43,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        },
+        "deepseek": {
+          "planned": 480,
+          "valid": 479,
+          "invalid_or_missing": 1,
+          "source_label_acceptable": 292,
+          "source_label_acceptable_rate": 0.6096033402922756,
+          "scenario_equal_weight_valid_accuracy": 0.6084677419354839,
+          "explicit_D_to_nonD": 15,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        }
+      },
+      "sensitivity_excluded_rows": 128,
+      "sensitivity_total_excluded_rows": 176,
+      "sensitivity_subset_rows": 480,
+      "paired": {
+        "jev_vs_luna": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 480,
+              "common_valid_requests": 476,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 353,
+              "common_valid_correct_b": 297,
+              "full_plan_valid_correct_a": 353,
+              "full_plan_valid_correct_b": 301,
+              "common_valid_correct_rate_a": 0.7415966386554622,
+              "common_valid_correct_rate_b": 0.6239495798319328,
+              "full_plan_correct_rate_a": 0.7354166666666667,
+              "full_plan_correct_rate_b": 0.6270833333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.11693548387096774,
+              "ci95": [
+                0.04011424731182796,
+                0.20235887096774183
+              ],
+              "n_scenarios": 15,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 15,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 480,
+              "common_valid_requests": 476,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 353,
+              "common_valid_correct_b": 297,
+              "full_plan_valid_correct_a": 353,
+              "full_plan_valid_correct_b": 301,
+              "common_valid_correct_rate_a": 0.7415966386554622,
+              "common_valid_correct_rate_b": 0.6239495798319328,
+              "full_plan_correct_rate_a": 0.7354166666666667,
+              "full_plan_correct_rate_b": 0.6270833333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.10833333333333334,
+              "ci95": [
+                0.029166666666666667,
+                0.19791666666666666
+              ],
+              "n_scenarios": 15,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 15,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_gemini": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 480,
+              "common_valid_requests": 476,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 353,
+              "common_valid_correct_b": 281,
+              "full_plan_valid_correct_a": 353,
+              "full_plan_valid_correct_b": 285,
+              "common_valid_correct_rate_a": 0.7415966386554622,
+              "common_valid_correct_rate_b": 0.5903361344537815,
+              "full_plan_correct_rate_a": 0.7354166666666667,
+              "full_plan_correct_rate_b": 0.59375
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.14993279569892473,
+              "ci95": [
+                0.026703629032258088,
+                0.30826780913978497
+              ],
+              "n_scenarios": 15,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 15,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 480,
+              "common_valid_requests": 476,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 353,
+              "common_valid_correct_b": 281,
+              "full_plan_valid_correct_a": 353,
+              "full_plan_valid_correct_b": 285,
+              "common_valid_correct_rate_a": 0.7415966386554622,
+              "common_valid_correct_rate_b": 0.5903361344537815,
+              "full_plan_correct_rate_a": 0.7354166666666667,
+              "full_plan_correct_rate_b": 0.59375
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.14166666666666666,
+              "ci95": [
+                0.014583333333333334,
+                0.3020833333333333
+              ],
+              "n_scenarios": 15,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 15,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_deepseek": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 480,
+              "common_valid_requests": 475,
+              "missing_or_invalid_pairs": 5,
+              "common_valid_correct_a": 353,
+              "common_valid_correct_b": 288,
+              "full_plan_valid_correct_a": 353,
+              "full_plan_valid_correct_b": 292,
+              "common_valid_correct_rate_a": 0.7431578947368421,
+              "common_valid_correct_rate_b": 0.6063157894736843,
+              "full_plan_correct_rate_a": 0.7354166666666667,
+              "full_plan_correct_rate_b": 0.6083333333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.13682795698924732,
+              "ci95": [
+                0.022916666666666665,
+                0.2584005376344086
+              ],
+              "n_scenarios": 15,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 15,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 480,
+              "common_valid_requests": 475,
+              "missing_or_invalid_pairs": 5,
+              "common_valid_correct_a": 353,
+              "common_valid_correct_b": 288,
+              "full_plan_valid_correct_a": 353,
+              "full_plan_valid_correct_b": 292,
+              "common_valid_correct_rate_a": 0.7431578947368421,
+              "common_valid_correct_rate_b": 0.6063157894736843,
+              "full_plan_correct_rate_a": 0.7354166666666667,
+              "full_plan_correct_rate_b": 0.6083333333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.12708333333333333,
+              "ci95": [
+                0.0125,
+                0.25
+              ],
+              "n_scenarios": 15,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 15,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        }
+      }
+    },
+    "main_full": {
+      "models": {
+        "jev": {
+          "planned": 960,
+          "valid": 953,
+          "invalid_or_missing": 7,
+          "source_label_acceptable": 790,
+          "source_label_acceptable_rate": 0.8289611752360966,
+          "scenario_equal_weight_valid_accuracy": 0.8301747311827957,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        },
+        "luna": {
+          "planned": 960,
+          "valid": 960,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 740,
+          "source_label_acceptable_rate": 0.7708333333333334,
+          "scenario_equal_weight_valid_accuracy": 0.7708333333333334,
+          "explicit_D_to_nonD": 11,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        },
+        "gemini": {
+          "planned": 960,
+          "valid": 960,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 737,
+          "source_label_acceptable_rate": 0.7677083333333333,
+          "scenario_equal_weight_valid_accuracy": 0.7677083333333333,
+          "explicit_D_to_nonD": 43,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        },
+        "deepseek": {
+          "planned": 960,
+          "valid": 959,
+          "invalid_or_missing": 1,
+          "source_label_acceptable": 749,
+          "source_label_acceptable_rate": 0.781021897810219,
+          "scenario_equal_weight_valid_accuracy": 0.7802755376344087,
+          "explicit_D_to_nonD": 15,
+          "explicit_D_planned": 64,
+          "explicit_D_valid": 64
+        }
+      },
+      "sensitivity_excluded_rows": 176,
+      "sensitivity_total_excluded_rows": 176,
+      "sensitivity_subset_rows": 960,
+      "paired": {
+        "jev_vs_luna": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 960,
+              "common_valid_requests": 953,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 790,
+              "common_valid_correct_b": 733,
+              "full_plan_valid_correct_a": 790,
+              "full_plan_valid_correct_b": 740,
+              "common_valid_correct_rate_a": 0.8289611752360966,
+              "common_valid_correct_rate_b": 0.7691500524658972,
+              "full_plan_correct_rate_a": 0.8229166666666666,
+              "full_plan_correct_rate_b": 0.7708333333333334
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.05950940860215053,
+              "ci95": [
+                0.016801075268817203,
+                0.10833333333333334
+              ],
+              "n_scenarios": 30,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 30,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 960,
+              "common_valid_requests": 953,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 790,
+              "common_valid_correct_b": 733,
+              "full_plan_valid_correct_a": 790,
+              "full_plan_valid_correct_b": 740,
+              "common_valid_correct_rate_a": 0.8289611752360966,
+              "common_valid_correct_rate_b": 0.7691500524658972,
+              "full_plan_correct_rate_a": 0.8229166666666666,
+              "full_plan_correct_rate_b": 0.7708333333333334
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.052083333333333336,
+              "ci95": [
+                0.008333333333333333,
+                0.10208333333333333
+              ],
+              "n_scenarios": 30,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 30,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_gemini": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 960,
+              "common_valid_requests": 953,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 790,
+              "common_valid_correct_b": 730,
+              "full_plan_valid_correct_a": 790,
+              "full_plan_valid_correct_b": 737,
+              "common_valid_correct_rate_a": 0.8289611752360966,
+              "common_valid_correct_rate_b": 0.7660020986358866,
+              "full_plan_correct_rate_a": 0.8229166666666666,
+              "full_plan_correct_rate_b": 0.7677083333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.06246639784946237,
+              "ci95": [
+                -0.00625,
+                0.1509744623655914
+              ],
+              "n_scenarios": 30,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 30,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 960,
+              "common_valid_requests": 953,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 790,
+              "common_valid_correct_b": 730,
+              "full_plan_valid_correct_a": 790,
+              "full_plan_valid_correct_b": 737,
+              "common_valid_correct_rate_a": 0.8289611752360966,
+              "common_valid_correct_rate_b": 0.7660020986358866,
+              "full_plan_correct_rate_a": 0.8229166666666666,
+              "full_plan_correct_rate_b": 0.7677083333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.05520833333333333,
+              "ci95": [
+                -0.014583333333333334,
+                0.14479166666666668
+              ],
+              "n_scenarios": 30,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 30,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_deepseek": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 960,
+              "common_valid_requests": 952,
+              "missing_or_invalid_pairs": 8,
+              "common_valid_correct_a": 790,
+              "common_valid_correct_b": 743,
+              "full_plan_valid_correct_a": 790,
+              "full_plan_valid_correct_b": 749,
+              "common_valid_correct_rate_a": 0.8298319327731093,
+              "common_valid_correct_rate_b": 0.7804621848739496,
+              "full_plan_correct_rate_a": 0.8229166666666666,
+              "full_plan_correct_rate_b": 0.7802083333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.04983198924731183,
+              "ci95": [
+                -0.022748655913978497,
+                0.12622311827956967
+              ],
+              "n_scenarios": 30,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 30,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 960,
+              "common_valid_requests": 952,
+              "missing_or_invalid_pairs": 8,
+              "common_valid_correct_a": 790,
+              "common_valid_correct_b": 743,
+              "full_plan_valid_correct_a": 790,
+              "full_plan_valid_correct_b": 749,
+              "common_valid_correct_rate_a": 0.8298319327731093,
+              "common_valid_correct_rate_b": 0.7804621848739496,
+              "full_plan_correct_rate_a": 0.8229166666666666,
+              "full_plan_correct_rate_b": 0.7802083333333333
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.042708333333333334,
+              "ci95": [
+                -0.030208333333333334,
+                0.11979166666666667
+              ],
+              "n_scenarios": 30,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 30,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        }
+      }
+    },
+    "emergency": {
+      "models": {
+        "jev": {
+          "planned": 128,
+          "valid": 128,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 128,
+          "source_label_acceptable_rate": 1.0,
+          "scenario_equal_weight_valid_accuracy": 1.0,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 128,
+          "explicit_D_valid": 128
+        },
+        "luna": {
+          "planned": 128,
+          "valid": 128,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 128,
+          "source_label_acceptable_rate": 1.0,
+          "scenario_equal_weight_valid_accuracy": 1.0,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 128,
+          "explicit_D_valid": 128
+        },
+        "gemini": {
+          "planned": 128,
+          "valid": 128,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 128,
+          "source_label_acceptable_rate": 1.0,
+          "scenario_equal_weight_valid_accuracy": 1.0,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 128,
+          "explicit_D_valid": 128
+        },
+        "deepseek": {
+          "planned": 128,
+          "valid": 128,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 128,
+          "source_label_acceptable_rate": 1.0,
+          "scenario_equal_weight_valid_accuracy": 1.0,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 128,
+          "explicit_D_valid": 128
+        }
+      },
+      "sensitivity_excluded_rows": 0,
+      "sensitivity_total_excluded_rows": 176,
+      "sensitivity_subset_rows": 128,
+      "paired": {
+        "jev_vs_luna": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 128,
+              "common_valid_requests": 128,
+              "missing_or_invalid_pairs": 0,
+              "common_valid_correct_a": 128,
+              "common_valid_correct_b": 128,
+              "full_plan_valid_correct_a": 128,
+              "full_plan_valid_correct_b": 128,
+              "common_valid_correct_rate_a": 1.0,
+              "common_valid_correct_rate_b": 1.0,
+              "full_plan_correct_rate_a": 1.0,
+              "full_plan_correct_rate_b": 1.0
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_scenarios": 4,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 4,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 128,
+              "common_valid_requests": 128,
+              "missing_or_invalid_pairs": 0,
+              "common_valid_correct_a": 128,
+              "common_valid_correct_b": 128,
+              "full_plan_valid_correct_a": 128,
+              "full_plan_valid_correct_b": 128,
+              "common_valid_correct_rate_a": 1.0,
+              "common_valid_correct_rate_b": 1.0,
+              "full_plan_correct_rate_a": 1.0,
+              "full_plan_correct_rate_b": 1.0
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_scenarios": 4,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 4,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_gemini": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 128,
+              "common_valid_requests": 128,
+              "missing_or_invalid_pairs": 0,
+              "common_valid_correct_a": 128,
+              "common_valid_correct_b": 128,
+              "full_plan_valid_correct_a": 128,
+              "full_plan_valid_correct_b": 128,
+              "common_valid_correct_rate_a": 1.0,
+              "common_valid_correct_rate_b": 1.0,
+              "full_plan_correct_rate_a": 1.0,
+              "full_plan_correct_rate_b": 1.0
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_scenarios": 4,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 4,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 128,
+              "common_valid_requests": 128,
+              "missing_or_invalid_pairs": 0,
+              "common_valid_correct_a": 128,
+              "common_valid_correct_b": 128,
+              "full_plan_valid_correct_a": 128,
+              "full_plan_valid_correct_b": 128,
+              "common_valid_correct_rate_a": 1.0,
+              "common_valid_correct_rate_b": 1.0,
+              "full_plan_correct_rate_a": 1.0,
+              "full_plan_correct_rate_b": 1.0
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_scenarios": 4,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 4,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_deepseek": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 128,
+              "common_valid_requests": 128,
+              "missing_or_invalid_pairs": 0,
+              "common_valid_correct_a": 128,
+              "common_valid_correct_b": 128,
+              "full_plan_valid_correct_a": 128,
+              "full_plan_valid_correct_b": 128,
+              "common_valid_correct_rate_a": 1.0,
+              "common_valid_correct_rate_b": 1.0,
+              "full_plan_correct_rate_a": 1.0,
+              "full_plan_correct_rate_b": 1.0
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_scenarios": 4,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 4,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 128,
+              "common_valid_requests": 128,
+              "missing_or_invalid_pairs": 0,
+              "common_valid_correct_a": 128,
+              "common_valid_correct_b": 128,
+              "full_plan_valid_correct_a": 128,
+              "full_plan_valid_correct_b": 128,
+              "common_valid_correct_rate_a": 1.0,
+              "common_valid_correct_rate_b": 1.0,
+              "full_plan_correct_rate_a": 1.0,
+              "full_plan_correct_rate_b": 1.0
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_scenarios": 4,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 4,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        }
+      },
+      "analysis": "independent_supplement"
+    },
+    "sensitivity_main_clear": {
+      "models": {
+        "jev": {
+          "planned": 352,
+          "valid": 348,
+          "invalid_or_missing": 4,
+          "source_label_acceptable": 296,
+          "source_label_acceptable_rate": 0.8505747126436781,
+          "scenario_equal_weight_valid_accuracy": 0.8124279953917052,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        },
+        "luna": {
+          "planned": 352,
+          "valid": 352,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 265,
+          "source_label_acceptable_rate": 0.7528409090909091,
+          "scenario_equal_weight_valid_accuracy": 0.7321428571428571,
+          "explicit_D_to_nonD": 1,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        },
+        "gemini": {
+          "planned": 352,
+          "valid": 352,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 255,
+          "source_label_acceptable_rate": 0.7244318181818182,
+          "scenario_equal_weight_valid_accuracy": 0.6696428571428571,
+          "explicit_D_to_nonD": 19,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        },
+        "deepseek": {
+          "planned": 352,
+          "valid": 351,
+          "invalid_or_missing": 1,
+          "source_label_acceptable": 246,
+          "source_label_acceptable_rate": 0.7008547008547008,
+          "scenario_equal_weight_valid_accuracy": 0.6831797235023042,
+          "explicit_D_to_nonD": 2,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        }
+      },
+      "sensitivity_excluded_rows": 128,
+      "sensitivity_total_excluded_rows": 176,
+      "sensitivity_subset_rows": 352,
+      "paired": {
+        "jev_vs_luna": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 352,
+              "common_valid_requests": 348,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 296,
+              "common_valid_correct_b": 261,
+              "full_plan_valid_correct_a": 296,
+              "full_plan_valid_correct_b": 265,
+              "common_valid_correct_rate_a": 0.8505747126436781,
+              "common_valid_correct_rate_b": 0.75,
+              "full_plan_correct_rate_a": 0.8409090909090909,
+              "full_plan_correct_rate_b": 0.7528409090909091
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.08064516129032258,
+              "ci95": [
+                0.020089285714285716,
+                0.15906538018433167
+              ],
+              "n_scenarios": 14,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 14,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 352,
+              "common_valid_requests": 348,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 296,
+              "common_valid_correct_b": 261,
+              "full_plan_valid_correct_a": 296,
+              "full_plan_valid_correct_b": 265,
+              "common_valid_correct_rate_a": 0.8505747126436781,
+              "common_valid_correct_rate_b": 0.75,
+              "full_plan_correct_rate_a": 0.8409090909090909,
+              "full_plan_correct_rate_b": 0.7528409090909091
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.07142857142857142,
+              "ci95": [
+                0.008928571428571428,
+                0.15401785714285715
+              ],
+              "n_scenarios": 14,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 14,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_gemini": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 352,
+              "common_valid_requests": 348,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 296,
+              "common_valid_correct_b": 251,
+              "full_plan_valid_correct_a": 296,
+              "full_plan_valid_correct_b": 255,
+              "common_valid_correct_rate_a": 0.8505747126436781,
+              "common_valid_correct_rate_b": 0.7212643678160919,
+              "full_plan_correct_rate_a": 0.8409090909090909,
+              "full_plan_correct_rate_b": 0.7244318181818182
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.14278513824884792,
+              "ci95": [
+                0.02678211405529954,
+                0.29910714285714285
+              ],
+              "n_scenarios": 14,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 14,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 352,
+              "common_valid_requests": 348,
+              "missing_or_invalid_pairs": 4,
+              "common_valid_correct_a": 296,
+              "common_valid_correct_b": 251,
+              "full_plan_valid_correct_a": 296,
+              "full_plan_valid_correct_b": 255,
+              "common_valid_correct_rate_a": 0.8505747126436781,
+              "common_valid_correct_rate_b": 0.7212643678160919,
+              "full_plan_correct_rate_a": 0.8409090909090909,
+              "full_plan_correct_rate_b": 0.7244318181818182
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.13392857142857142,
+              "ci95": [
+                0.015625,
+                0.29246651785714206
+              ],
+              "n_scenarios": 14,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 14,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_deepseek": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 352,
+              "common_valid_requests": 347,
+              "missing_or_invalid_pairs": 5,
+              "common_valid_correct_a": 296,
+              "common_valid_correct_b": 242,
+              "full_plan_valid_correct_a": 296,
+              "full_plan_valid_correct_b": 246,
+              "common_valid_correct_rate_a": 0.8530259365994236,
+              "common_valid_correct_rate_b": 0.6974063400576369,
+              "full_plan_correct_rate_a": 0.8409090909090909,
+              "full_plan_correct_rate_b": 0.6988636363636364
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.13097638248847926,
+              "ci95": [
+                0.04241071428571429,
+                0.2411434331797235
+              ],
+              "n_scenarios": 14,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 14,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 352,
+              "common_valid_requests": 347,
+              "missing_or_invalid_pairs": 5,
+              "common_valid_correct_a": 296,
+              "common_valid_correct_b": 242,
+              "full_plan_valid_correct_a": 296,
+              "full_plan_valid_correct_b": 246,
+              "common_valid_correct_rate_a": 0.8530259365994236,
+              "common_valid_correct_rate_b": 0.6974063400576369,
+              "full_plan_correct_rate_a": 0.8409090909090909,
+              "full_plan_correct_rate_b": 0.6988636363636364
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.12053571428571429,
+              "ci95": [
+                0.02896205357142859,
+                0.23214285714285715
+              ],
+              "n_scenarios": 14,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 14,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        }
+      }
+    },
+    "sensitivity_main_full": {
+      "models": {
+        "jev": {
+          "planned": 784,
+          "valid": 777,
+          "invalid_or_missing": 7,
+          "source_label_acceptable": 693,
+          "source_label_acceptable_rate": 0.8918918918918919,
+          "scenario_equal_weight_valid_accuracy": 0.8704997119815668,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        },
+        "luna": {
+          "planned": 784,
+          "valid": 784,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 667,
+          "source_label_acceptable_rate": 0.8507653061224489,
+          "scenario_equal_weight_valid_accuracy": 0.8325892857142857,
+          "explicit_D_to_nonD": 1,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        },
+        "gemini": {
+          "planned": 784,
+          "valid": 784,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 659,
+          "source_label_acceptable_rate": 0.8405612244897959,
+          "scenario_equal_weight_valid_accuracy": 0.8035714285714286,
+          "explicit_D_to_nonD": 19,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        },
+        "deepseek": {
+          "planned": 784,
+          "valid": 783,
+          "invalid_or_missing": 1,
+          "source_label_acceptable": 659,
+          "source_label_acceptable_rate": 0.8416347381864623,
+          "scenario_equal_weight_valid_accuracy": 0.820384504608295,
+          "explicit_D_to_nonD": 2,
+          "explicit_D_planned": 32,
+          "explicit_D_valid": 32
+        }
+      },
+      "sensitivity_excluded_rows": 176,
+      "sensitivity_total_excluded_rows": 176,
+      "sensitivity_subset_rows": 784,
+      "paired": {
+        "jev_vs_luna": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 784,
+              "common_valid_requests": 777,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 693,
+              "common_valid_correct_b": 660,
+              "full_plan_valid_correct_a": 693,
+              "full_plan_valid_correct_b": 667,
+              "common_valid_correct_rate_a": 0.8918918918918919,
+              "common_valid_correct_rate_b": 0.8494208494208494,
+              "full_plan_correct_rate_a": 0.8839285714285714,
+              "full_plan_correct_rate_b": 0.8507653061224489
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.038090437788018426,
+              "ci95": [
+                0.004608294930875576,
+                0.08273329493087557
+              ],
+              "n_scenarios": 28,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 28,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 784,
+              "common_valid_requests": 777,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 693,
+              "common_valid_correct_b": 660,
+              "full_plan_valid_correct_a": 693,
+              "full_plan_valid_correct_b": 667,
+              "common_valid_correct_rate_a": 0.8918918918918919,
+              "common_valid_correct_rate_b": 0.8494208494208494,
+              "full_plan_correct_rate_a": 0.8839285714285714,
+              "full_plan_correct_rate_b": 0.8507653061224489
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.030133928571428572,
+              "ci95": [
+                -0.004464285714285714,
+                0.07592075892857102
+              ],
+              "n_scenarios": 28,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 28,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_gemini": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 784,
+              "common_valid_requests": 777,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 693,
+              "common_valid_correct_b": 652,
+              "full_plan_valid_correct_a": 693,
+              "full_plan_valid_correct_b": 659,
+              "common_valid_correct_rate_a": 0.8918918918918919,
+              "common_valid_correct_rate_b": 0.8391248391248392,
+              "full_plan_correct_rate_a": 0.8839285714285714,
+              "full_plan_correct_rate_b": 0.8405612244897959
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.06692828341013825,
+              "ci95": [
+                0.004464285714285714,
+                0.15398275489631336
+              ],
+              "n_scenarios": 28,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 28,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 784,
+              "common_valid_requests": 777,
+              "missing_or_invalid_pairs": 7,
+              "common_valid_correct_a": 693,
+              "common_valid_correct_b": 652,
+              "full_plan_valid_correct_a": 693,
+              "full_plan_valid_correct_b": 659,
+              "common_valid_correct_rate_a": 0.8918918918918919,
+              "common_valid_correct_rate_b": 0.8391248391248392,
+              "full_plan_correct_rate_a": 0.8839285714285714,
+              "full_plan_correct_rate_b": 0.8405612244897959
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.05915178571428571,
+              "ci95": [
+                -0.004464285714285714,
+                0.14732142857142858
+              ],
+              "n_scenarios": 28,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 28,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        },
+        "jev_vs_deepseek": {
+          "common_valid": {
+            "denominators": {
+              "planned_requests": 784,
+              "common_valid_requests": 776,
+              "missing_or_invalid_pairs": 8,
+              "common_valid_correct_a": 693,
+              "common_valid_correct_b": 653,
+              "full_plan_valid_correct_a": 693,
+              "full_plan_valid_correct_b": 659,
+              "common_valid_correct_rate_a": 0.8930412371134021,
+              "common_valid_correct_rate_b": 0.8414948453608248,
+              "full_plan_correct_rate_a": 0.8839285714285714,
+              "full_plan_correct_rate_b": 0.8405612244897959
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.050043202764976966,
+              "ci95": [
+                -0.0234375,
+                0.12428895449308744
+              ],
+              "n_scenarios": 28,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 28,
+              "excluded_scenarios": 0
+            },
+            "common_only": true
+          },
+          "full_plan": {
+            "denominators": {
+              "planned_requests": 784,
+              "common_valid_requests": 776,
+              "missing_or_invalid_pairs": 8,
+              "common_valid_correct_a": 693,
+              "common_valid_correct_b": 653,
+              "full_plan_valid_correct_a": 693,
+              "full_plan_valid_correct_b": 659,
+              "common_valid_correct_rate_a": 0.8930412371134021,
+              "common_valid_correct_rate_b": 0.8414948453608248,
+              "full_plan_correct_rate_a": 0.8839285714285714,
+              "full_plan_correct_rate_b": 0.8405612244897959
+            },
+            "bootstrap": {
+              "status": "ok",
+              "estimate": 0.04241071428571429,
+              "ci95": [
+                -0.03125,
+                0.1171875
+              ],
+              "n_scenarios": 28,
+              "iterations": 5000,
+              "seed": 20260922,
+              "planned_scenarios": 28,
+              "excluded_scenarios": 0
+            },
+            "common_only": false
+          }
+        }
+      }
+    },
+    "all_data": {
+      "models": {
+        "jev": {
+          "planned": 1088,
+          "valid": 1081,
+          "invalid_or_missing": 7,
+          "source_label_acceptable": 918,
+          "source_label_acceptable_rate": 0.849213691026827,
+          "scenario_equal_weight_valid_accuracy": 0.8501541745730551,
+          "explicit_D_to_nonD": 0,
+          "explicit_D_planned": 192,
+          "explicit_D_valid": 192
+        },
+        "luna": {
+          "planned": 1088,
+          "valid": 1088,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 868,
+          "source_label_acceptable_rate": 0.7977941176470589,
+          "scenario_equal_weight_valid_accuracy": 0.7977941176470589,
+          "explicit_D_to_nonD": 11,
+          "explicit_D_planned": 192,
+          "explicit_D_valid": 192
+        },
+        "gemini": {
+          "planned": 1088,
+          "valid": 1088,
+          "invalid_or_missing": 0,
+          "source_label_acceptable": 865,
+          "source_label_acceptable_rate": 0.7950367647058824,
+          "scenario_equal_weight_valid_accuracy": 0.7950367647058824,
+          "explicit_D_to_nonD": 43,
+          "explicit_D_planned": 192,
+          "explicit_D_valid": 192
+        },
+        "deepseek": {
+          "planned": 1088,
+          "valid": 1087,
+          "invalid_or_missing": 1,
+          "source_label_acceptable": 877,
+          "source_label_acceptable_rate": 0.8068077276908924,
+          "scenario_equal_weight_valid_accuracy": 0.8061254743833017,
+          "explicit_D_to_nonD": 15,
+          "explicit_D_planned": 192,
+          "explicit_D_valid": 192
+        }
+      },
+      "sensitivity_excluded_rows": 176,
+      "sensitivity_total_excluded_rows": 176,
+      "sensitivity_subset_rows": 1088
+    }
+  },
+  "adjusted_significance": "not_reported; Holm/p-values not implemented",
+  "equivalence_or_noninferiority": "not_claimed"
+}

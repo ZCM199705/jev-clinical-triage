@@ -1,0 +1,1065 @@
+{
+  "audit": {
+    "freeze_digest": "ac24556125585373e5c7e6524cdb9f58f0765d0cbadbda4990ca09287b45b897",
+    "jobs": 408,
+    "sources": 204,
+    "complete_terminals": 408,
+    "unknown_cost_jobs": 0,
+    "coding_cost_usd": "0.06781540",
+    "seed": 20260922,
+    "bootstrap_replicates": 5000
+  },
+  "summary_by_source_role": {
+    "luna": {
+      "main_clear": {
+        "planned": 30,
+        "consensus_valid": 17,
+        "unresolved": 13,
+        "correct_valid": 12,
+        "correct_full_plan": 12,
+        "accuracy_valid": 0.7058823529411765,
+        "valid_yield_full_plan": 0.5666666666666667,
+        "correct_yield_full_plan": 0.4,
+        "reason_counts": {
+          "consensus": 17,
+          "technical_failure:mapped_evidence_invalid": 10,
+          "disagreement": 3
+        }
+      },
+      "main_full": {
+        "planned": 60,
+        "consensus_valid": 33,
+        "unresolved": 27,
+        "correct_valid": 27,
+        "correct_full_plan": 27,
+        "accuracy_valid": 0.8181818181818182,
+        "valid_yield_full_plan": 0.55,
+        "correct_yield_full_plan": 0.45,
+        "reason_counts": {
+          "consensus": 33,
+          "technical_failure:mapped_evidence_invalid": 20,
+          "disagreement": 6,
+          "technical_failure:coding_status_invalid+technical_failure:mapped_evidence_invalid": 1
+        }
+      },
+      "emergency": {
+        "planned": 8,
+        "consensus_valid": 4,
+        "unresolved": 4,
+        "correct_valid": 4,
+        "correct_full_plan": 4,
+        "accuracy_valid": 1.0,
+        "valid_yield_full_plan": 0.5,
+        "correct_yield_full_plan": 0.5,
+        "reason_counts": {
+          "technical_failure:mapped_evidence_invalid": 4,
+          "consensus": 4
+        }
+      },
+      "sensitivity_main_clear": {
+        "planned": 22,
+        "consensus_valid": 13,
+        "unresolved": 9,
+        "correct_valid": 10,
+        "correct_full_plan": 10,
+        "accuracy_valid": 0.7692307692307693,
+        "valid_yield_full_plan": 0.5909090909090909,
+        "correct_yield_full_plan": 0.45454545454545453,
+        "reason_counts": {
+          "technical_failure:mapped_evidence_invalid": 8,
+          "consensus": 13,
+          "disagreement": 1
+        }
+      },
+      "sensitivity_main_full": {
+        "planned": 49,
+        "consensus_valid": 28,
+        "unresolved": 21,
+        "correct_valid": 24,
+        "correct_full_plan": 24,
+        "accuracy_valid": 0.8571428571428571,
+        "valid_yield_full_plan": 0.5714285714285714,
+        "correct_yield_full_plan": 0.4897959183673469,
+        "reason_counts": {
+          "technical_failure:mapped_evidence_invalid": 17,
+          "disagreement": 4,
+          "consensus": 28
+        }
+      }
+    },
+    "gemini": {
+      "main_clear": {
+        "planned": 30,
+        "consensus_valid": 18,
+        "unresolved": 12,
+        "correct_valid": 11,
+        "correct_full_plan": 11,
+        "accuracy_valid": 0.6111111111111112,
+        "valid_yield_full_plan": 0.6,
+        "correct_yield_full_plan": 0.36666666666666664,
+        "reason_counts": {
+          "consensus": 18,
+          "unmapped": 10,
+          "technical_failure:mapped_evidence_invalid": 1,
+          "technical_failure:coding_status_invalid+technical_failure:mapped_evidence_invalid": 1
+        }
+      },
+      "main_full": {
+        "planned": 60,
+        "consensus_valid": 41,
+        "unresolved": 19,
+        "correct_valid": 32,
+        "correct_full_plan": 32,
+        "accuracy_valid": 0.7804878048780488,
+        "valid_yield_full_plan": 0.6833333333333333,
+        "correct_yield_full_plan": 0.5333333333333333,
+        "reason_counts": {
+          "consensus": 41,
+          "unmapped": 12,
+          "technical_failure:mapped_evidence_invalid": 3,
+          "technical_failure:coding_json_invalid": 2,
+          "disagreement": 1,
+          "technical_failure:coding_status_invalid+technical_failure:mapped_evidence_invalid": 1
+        }
+      },
+      "emergency": {
+        "planned": 8,
+        "consensus_valid": 8,
+        "unresolved": 0,
+        "correct_valid": 8,
+        "correct_full_plan": 8,
+        "accuracy_valid": 1.0,
+        "valid_yield_full_plan": 1.0,
+        "correct_yield_full_plan": 1.0,
+        "reason_counts": {
+          "consensus": 8
+        }
+      },
+      "sensitivity_main_clear": {
+        "planned": 22,
+        "consensus_valid": 16,
+        "unresolved": 6,
+        "correct_valid": 11,
+        "correct_full_plan": 11,
+        "accuracy_valid": 0.6875,
+        "valid_yield_full_plan": 0.7272727272727273,
+        "correct_yield_full_plan": 0.5,
+        "reason_counts": {
+          "consensus": 16,
+          "unmapped": 4,
+          "technical_failure:mapped_evidence_invalid": 1,
+          "technical_failure:coding_status_invalid+technical_failure:mapped_evidence_invalid": 1
+        }
+      },
+      "sensitivity_main_full": {
+        "planned": 49,
+        "consensus_valid": 36,
+        "unresolved": 13,
+        "correct_valid": 29,
+        "correct_full_plan": 29,
+        "accuracy_valid": 0.8055555555555556,
+        "valid_yield_full_plan": 0.7346938775510204,
+        "correct_yield_full_plan": 0.5918367346938775,
+        "reason_counts": {
+          "consensus": 36,
+          "unmapped": 6,
+          "technical_failure:mapped_evidence_invalid": 3,
+          "technical_failure:coding_json_invalid": 2,
+          "disagreement": 1,
+          "technical_failure:coding_status_invalid+technical_failure:mapped_evidence_invalid": 1
+        }
+      }
+    },
+    "deepseek": {
+      "main_clear": {
+        "planned": 30,
+        "consensus_valid": 16,
+        "unresolved": 14,
+        "correct_valid": 11,
+        "correct_full_plan": 11,
+        "accuracy_valid": 0.6875,
+        "valid_yield_full_plan": 0.5333333333333333,
+        "correct_yield_full_plan": 0.36666666666666664,
+        "reason_counts": {
+          "disagreement": 2,
+          "consensus": 16,
+          "technical_failure:mapped_evidence_invalid": 8,
+          "unmapped": 4
+        }
+      },
+      "main_full": {
+        "planned": 60,
+        "consensus_valid": 33,
+        "unresolved": 27,
+        "correct_valid": 28,
+        "correct_full_plan": 28,
+        "accuracy_valid": 0.8484848484848485,
+        "valid_yield_full_plan": 0.55,
+        "correct_yield_full_plan": 0.4666666666666667,
+        "reason_counts": {
+          "disagreement": 5,
+          "consensus": 33,
+          "technical_failure:mapped_evidence_invalid": 16,
+          "unmapped": 6
+        }
+      },
+      "emergency": {
+        "planned": 8,
+        "consensus_valid": 8,
+        "unresolved": 0,
+        "correct_valid": 8,
+        "correct_full_plan": 8,
+        "accuracy_valid": 1.0,
+        "valid_yield_full_plan": 1.0,
+        "correct_yield_full_plan": 1.0,
+        "reason_counts": {
+          "consensus": 8
+        }
+      },
+      "sensitivity_main_clear": {
+        "planned": 22,
+        "consensus_valid": 14,
+        "unresolved": 8,
+        "correct_valid": 11,
+        "correct_full_plan": 11,
+        "accuracy_valid": 0.7857142857142857,
+        "valid_yield_full_plan": 0.6363636363636364,
+        "correct_yield_full_plan": 0.5,
+        "reason_counts": {
+          "disagreement": 2,
+          "consensus": 14,
+          "technical_failure:mapped_evidence_invalid": 5,
+          "unmapped": 1
+        }
+      },
+      "sensitivity_main_full": {
+        "planned": 49,
+        "consensus_valid": 29,
+        "unresolved": 20,
+        "correct_valid": 26,
+        "correct_full_plan": 26,
+        "accuracy_valid": 0.896551724137931,
+        "valid_yield_full_plan": 0.5918367346938775,
+        "correct_yield_full_plan": 0.5306122448979592,
+        "reason_counts": {
+          "disagreement": 4,
+          "consensus": 29,
+          "technical_failure:mapped_evidence_invalid": 13,
+          "unmapped": 3
+        }
+      }
+    }
+  },
+  "paired": {
+    "r1_luna_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.041666666666666664,
+        "ci95": [
+          0.0,
+          0.125
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.16666666666666666,
+        "ci95": [
+          -0.3,
+          -0.03333333333333333
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r1_luna_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.021739130434782608,
+        "ci95": [
+          0.0,
+          0.06521739130434782
+        ],
+        "n_scenarios": 23,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 7
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.2833333333333333,
+        "ci95": [
+          -0.4166666666666667,
+          -0.15
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r1_luna_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 3,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 1
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.5,
+        "ci95": [
+          -0.875,
+          -0.125
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r1_gemini_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": -0.041666666666666664,
+        "ci95": [
+          -0.25,
+          0.20833333333333334
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.26666666666666666,
+        "ci95": [
+          -0.4,
+          -0.13333333333333333
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r1_gemini_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": -0.019230769230769232,
+        "ci95": [
+          -0.11538461538461539,
+          0.09615384615384616
+        ],
+        "n_scenarios": 26,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 4
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.25,
+        "ci95": [
+          -0.35,
+          -0.15
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r1_gemini_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r1_deepseek_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.08333333333333333,
+        "ci95": [
+          0.0,
+          0.25
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.1,
+        "ci95": [
+          -0.2,
+          0.0
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r1_deepseek_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.06521739130434782,
+        "ci95": [
+          0.0,
+          0.17391304347826086
+        ],
+        "n_scenarios": 23,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 7
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.23333333333333334,
+        "ci95": [
+          -0.36666666666666664,
+          -0.11666666666666667
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r1_deepseek_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r2_luna_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.041666666666666664,
+        "ci95": [
+          0.0,
+          0.125
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.16666666666666666,
+        "ci95": [
+          -0.3,
+          -0.03333333333333333
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r2_luna_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.021739130434782608,
+        "ci95": [
+          0.0,
+          0.06521739130434782
+        ],
+        "n_scenarios": 23,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 7
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.2833333333333333,
+        "ci95": [
+          -0.4166666666666667,
+          -0.15
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r2_luna_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 3,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 1
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.5,
+        "ci95": [
+          -0.875,
+          -0.125
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r2_gemini_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": -0.041666666666666664,
+        "ci95": [
+          -0.25,
+          0.20833333333333334
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.3,
+        "ci95": [
+          -0.4666666666666667,
+          -0.13333333333333333
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r2_gemini_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          -0.09615384615384616,
+          0.11538461538461539
+        ],
+        "n_scenarios": 26,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 4
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.25,
+        "ci95": [
+          -0.36666666666666664,
+          -0.13333333333333333
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r2_gemini_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r2_deepseek_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": -0.041666666666666664,
+        "ci95": [
+          -0.125,
+          0.0
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.23333333333333334,
+        "ci95": [
+          -0.36666666666666664,
+          -0.1
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r2_deepseek_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.021739130434782608,
+        "ci95": [
+          -0.06521739130434782,
+          0.13043478260869565
+        ],
+        "n_scenarios": 23,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 7
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.31666666666666665,
+        "ci95": [
+          -0.45,
+          -0.2
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r2_deepseek_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r3_luna_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.041666666666666664,
+        "ci95": [
+          0.0,
+          0.125
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.2,
+        "ci95": [
+          -0.3333333333333333,
+          -0.03333333333333333
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r3_luna_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.021739130434782608,
+        "ci95": [
+          0.0,
+          0.06521739130434782
+        ],
+        "n_scenarios": 23,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 7
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.3,
+        "ci95": [
+          -0.43333333333333335,
+          -0.18333333333333332
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r3_luna_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 3,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 1
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.5,
+        "ci95": [
+          -0.875,
+          -0.125
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "luna"
+    },
+    "r3_gemini_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": -0.041666666666666664,
+        "ci95": [
+          -0.25,
+          0.20833333333333334
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.3,
+        "ci95": [
+          -0.4666666666666667,
+          -0.13333333333333333
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r3_gemini_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": -0.019230769230769232,
+        "ci95": [
+          -0.11538461538461539,
+          0.09615384615384616
+        ],
+        "n_scenarios": 26,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 4
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.26666666666666666,
+        "ci95": [
+          -0.38333333333333336,
+          -0.16666666666666666
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r3_gemini_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "gemini"
+    },
+    "r3_deepseek_main_clear": {
+      "planned": 30,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 12,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 3
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.26666666666666666,
+        "ci95": [
+          -0.43333333333333335,
+          -0.13333333333333333
+        ],
+        "n_scenarios": 15,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 15,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r3_deepseek_main_full": {
+      "planned": 60,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.08695652173913043,
+        "ci95": [
+          0.0,
+          0.21739130434782608
+        ],
+        "n_scenarios": 23,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 7
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": -0.3,
+        "ci95": [
+          -0.45,
+          -0.15
+        ],
+        "n_scenarios": 30,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 30,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    },
+    "r3_deepseek_emergency": {
+      "planned": 8,
+      "common_valid": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "full_plan": {
+        "status": "ok",
+        "estimate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_scenarios": 4,
+        "iterations": 5000,
+        "seed": 20260922,
+        "planned_scenarios": 4,
+        "excluded_scenarios": 0
+      },
+      "baseline_round_role": "deepseek"
+    }
+  }
+}

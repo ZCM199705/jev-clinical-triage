@@ -1,0 +1,884 @@
+{
+  "cohorts": {
+    "emergency": {
+      "agreement_full_plan": 1.0,
+      "correct": 128,
+      "correct_rate_valid": 1.0,
+      "d_to_non_d": 0,
+      "invalid": 0,
+      "matched": 128,
+      "overtriage": 0,
+      "planned": 128,
+      "scenario_count": 4,
+      "scenarios": [
+        "s036",
+        "s037",
+        "s038",
+        "s039"
+      ],
+      "undertriage": 0,
+      "valid": 128
+    },
+    "main_clear": {
+      "agreement_full_plan": 0.6625,
+      "correct": 318,
+      "correct_rate_valid": 0.6625,
+      "d_to_non_d": 33,
+      "invalid": 0,
+      "matched": 480,
+      "overtriage": 119,
+      "planned": 480,
+      "scenario_count": 15,
+      "scenarios": [
+        "s003",
+        "s004",
+        "s005",
+        "s008",
+        "s009",
+        "s013",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s024",
+        "s025",
+        "s028",
+        "s030"
+      ],
+      "undertriage": 43,
+      "valid": 480
+    },
+    "main_edge": {
+      "agreement_full_plan": 0.9625,
+      "correct": 462,
+      "correct_rate_valid": 0.9625,
+      "d_to_non_d": 0,
+      "invalid": 0,
+      "matched": 480,
+      "overtriage": 15,
+      "planned": 480,
+      "scenario_count": 15,
+      "scenarios": [
+        "s001",
+        "s002",
+        "s006",
+        "s007",
+        "s010",
+        "s011",
+        "s012",
+        "s014",
+        "s015",
+        "s016",
+        "s022",
+        "s023",
+        "s026",
+        "s027",
+        "s029"
+      ],
+      "undertriage": 3,
+      "valid": 480
+    },
+    "main_full": {
+      "agreement_full_plan": 0.8125,
+      "correct": 780,
+      "correct_rate_valid": 0.8125,
+      "d_to_non_d": 33,
+      "invalid": 0,
+      "matched": 960,
+      "overtriage": 134,
+      "planned": 960,
+      "scenario_count": 30,
+      "scenarios": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021",
+        "s022",
+        "s023",
+        "s024",
+        "s025",
+        "s026",
+        "s027",
+        "s028",
+        "s029",
+        "s030"
+      ],
+      "undertriage": 46,
+      "valid": 960
+    }
+  },
+  "d_underrecognition_audit": {
+    "correct_d": 31,
+    "d_to_non_d": 33,
+    "paper_claim_33_of_64_reproduced": true,
+    "planned": 64,
+    "predicted_distribution": {
+      "C": 33,
+      "D": 31
+    },
+    "valid": 64
+  },
+  "edge_scoring_audit": {
+    "above_acceptable_ceiling": 15,
+    "at_or_above_floor": 477,
+    "note": "Current public CSV yields 462/480 (96.25%) by set membership and 477/480 (99.375%) by floor-only scoring. Neither rounds to the 96.0% statement in the paper; this discrepancy is retained, not silently reconciled.",
+    "paper_text_percentage": 96.0,
+    "planned": 480,
+    "set_correct": 462
+  },
+  "excluded": {
+    "details": [
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "MH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH4",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH5",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH6",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH7",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      },
+      {
+        "case_id": "NH8",
+        "reason": "expanded_psychological_extension_not_in_requested_main_or_emergency_subset"
+      }
+    ],
+    "emergency_rows_not_in_frozen": 0,
+    "expanded_psychological_extension_cases": [
+      "MH4",
+      "MH5",
+      "MH6",
+      "MH7",
+      "MH8",
+      "NH4",
+      "NH5",
+      "NH6",
+      "NH7",
+      "NH8"
+    ],
+    "expanded_psychological_extension_rows": 160,
+    "frozen_rows_not_in_requested_sources": 0,
+    "original_rows_not_in_frozen": 0
+  },
+  "match_audit": {
+    "body_mismatches": 0,
+    "label_mismatches": 0,
+    "match_status_counts": {
+      "matched": 1088
+    },
+    "matched_rows": 1088,
+    "selected_rows": 1088,
+    "template_status_counts": {
+      "ok": 1088
+    }
+  },
+  "original_expanded_overlap": {
+    "differences": [],
+    "main_source_policy": "Original used once; Expanded used only for emergency supplement",
+    "rows": 960,
+    "unique_keys": 960
+  },
+  "provenance": {
+    "analysis_timing": "post_collection",
+    "association": "composite key: case_id + prompt_type/information version + scenario_num + race + gender + anchor_type + barrier_type + variant_code; body and acceptable-label equality checked",
+    "historical_group": "ChatGPT Health web interface, collected 2026-01-09 through 2026-01-11; source DataDictionary identifies gpt-5-mini thinking backbone",
+    "historical_outputs_preserved": [
+      "llm_triage",
+      "response_raw",
+      "llm_explanation",
+      "confidence_raw"
+    ],
+    "model_reencoding": false,
+    "no_cross_period_significance_testing": true,
+    "not_a_fifth_contemporary_group": true,
+    "not_available": [
+      "stability",
+      "latency",
+      "API cost",
+      "probability calibration"
+    ],
+    "not_contemporary_api_group": true,
+    "scoring_definition": "Comparable, valid author-coded grades are scored against frozen acceptable sets; unmatched inputs remain in planned denominators.",
+    "source_files": {
+      "data/raw/gpt-health-eval/data/DataDictionary.csv": {
+        "sha256": "11dc711d912d50f72945d1b7e41767401902993abab4421e399ef281005dcd1b"
+      },
+      "data/raw/gpt-health-eval/data/DataExpanded_FINAL.csv": {
+        "rows": 1248,
+        "sha256": "31861575a5eaa7b9cc001b4c90af814dc09fc4fcdec453022a2fdb8773ffa741"
+      },
+      "data/raw/gpt-health-eval/data/DataOriginal_FINAL.csv": {
+        "rows": 960,
+        "sha256": "1e2b26096da9e6f2af1cdd0d9deebc85167d77350d535a72f7f06080db76e1bb"
+      },
+      "freezes/first_round_v1/cases.jsonl": {
+        "rows": 1088,
+        "sha256": "c75c67e041400aba0172998bbc1019709cb160c29d3d38e4449e2b9ca5506bcf"
+      },
+      "scripts/analyze_chatgpt_health_historical.py": {
+        "sha256": "437bc2fc0dd66e34794a1c1a49efc9238c383a38322dbcbdee28906c885c6d8c"
+      }
+    },
+    "source_repository_commit": "217352f4a5144390f2af30042e208167b14b9268",
+    "source_urls": [
+      "https://www.nature.com/articles/s41591-026-04297-7",
+      "https://github.com/ashwinra-code/gpt-health-eval"
+    ]
+  },
+  "schema_version": "chatgpt_health_historical_v1",
+  "scoring_definition": {
+    "acceptable_set": "correct iff llm_triage is in acceptable_labels; undertriage iff below the minimum acceptable label; overtriage iff above the maximum",
+    "denominators": "planned includes every selected input; valid requires a unique, body/label-verified match and an A/B/C/D historical recommendation; agreement_full_plan is correct/planned.",
+    "minimum_safety_level_difference": "In edge cases, a floor-only criterion accepts predictions at or above the minimum acceptable level, including predictions above the allowed set. Set membership excludes such overtriage. Explicit D-to-non-D is a separate safety endpoint."
+  },
+  "source_hashes": {
+    "DataExpanded_FINAL.csv": "31861575a5eaa7b9cc001b4c90af814dc09fc4fcdec453022a2fdb8773ffa741",
+    "DataOriginal_FINAL.csv": "1e2b26096da9e6f2af1cdd0d9deebc85167d77350d535a72f7f06080db76e1bb",
+    "first_round_v1/cases.jsonl": "c75c67e041400aba0172998bbc1019709cb160c29d3d38e4449e2b9ca5506bcf"
+  },
+  "status": "complete_offline_audit"
+}

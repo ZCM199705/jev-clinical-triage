@@ -1,0 +1,37 @@
+[
+  {
+    "change": "remove local path prefixes",
+    "export_sha256": "1acc2dac1248aad72ed06e9d35975926e03db54300ccdb111fec0d1af8b5101d",
+    "file": "tests/test_chatgpt_health_historical.py",
+    "original_sha256": "610120e7cb4cd6017d4d527c861bee147ea6228b8068caa2e28db720376e60c9"
+  },
+  {
+    "change": "remove local path prefixes",
+    "export_sha256": "f4477a87fbd36de9c4ee5287197c90430614ea55e1db8871442a6058245394b0",
+    "file": "freezes/natural_coding_v1/source_answers.jsonl",
+    "original_sha256": "f81d356b98800a088e52102dd55663aed3d66a416941cb3f7049373961330e21"
+  },
+  {
+    "change": "remove local path prefixes",
+    "export_sha256": "7b4d007bcab415526951dbef75117d2669feb559af1699cf79ee829924c74f83",
+    "file": "freezes/natural_coding_v1/manifest.json",
+    "original_sha256": "bd3f4bad12e5e506d023c08d0a3215901189b10e61a06c1c05f039f81a1640e1"
+  },
+  {
+    "change": "remove local path prefixes",
+    "export_sha256": "d2050a44cf6fbe86817b147fe1c1c4080b17ca910dddfb5db3e7e1b936c5be55",
+    "file": "expected/chatgpt_health_historical_v1/results.json",
+    "original_sha256": "034f3e1338f8c6e44fa3527f232528b1d8882ebd989e014cb3fc33d3d8b13ec0"
+  },
+  {
+    "change": "recomputed file and manifest hashes after path rebasing; experimental parameters unchanged",
+    "file": "freezes/natural_coding_v1/manifest.json",
+    "original_sha256": "bd3f4bad12e5e506d023c08d0a3215901189b10e61a06c1c05f039f81a1640e1"
+  },
+  {
+    "file": "scripts/analyze_chatgpt_health_historical.py",
+    "original_sha256": "437bc2fc0dd66e34794a1c1a49efc9238c383a38322dbcbdee28906c885c6d8c",
+    "export_sha256": "3d2dc7aa82b14720b0ad2d9d0caa17d6966bfed0601bf03a25fb3a38ebdbefb4",
+    "change": "Resolve source and output paths from package root; matching/scoring unchanged"
+  }
+]

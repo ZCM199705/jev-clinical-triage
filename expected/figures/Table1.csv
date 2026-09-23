@@ -1,0 +1,5 @@
+role,clear_correct,clear_planned,clear_agreement,stable_identical,stable_valid,stable_planned,consistency,undertriage,main_valid,http_p50_s_median,known_usd_per_1000_requests_median,cost_type,efficiency_unknown_requests
+jev,353,480,0.7354166666666667,886,946,960,0.9365750528541226,17,953,0.404,0.02871267,provider_reported,1
+luna,301,480,0.6270833333333333,817,960,960,0.8510416666666667,36,960,1.243879,0.085731,provider_reported,0
+gemini,285,480,0.59375,865,960,960,0.9010416666666666,46,960,0.7323695,0.1061825,provider_reported,0
+deepseek,292,480,0.6083333333333333,651,959,960,0.6788321167883211,21,959,1.0238625000000001,0.119166,upper_estimate,0

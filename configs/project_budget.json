@@ -1,0 +1,11 @@
+{
+  "automatic_api_allocation_usd": "180.00",
+  "live_enabled": false,
+  "prior_pilot": {
+    "cost_reported_plus_upper_estimate_usd": "0.002940750",
+    "do_not_add_cost_again_to_reservation": true,
+    "evidence": "reports/preflight/pilot_summary.json",
+    "permanent_budget_reservation_usd": "0.416522"
+  },
+  "project_total_cap_usd": "200.00"
+}

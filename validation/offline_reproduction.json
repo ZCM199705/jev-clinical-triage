@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "requests": 26172,
+  "verified_evidence_files": 26241,
+  "numeric_analyses_match": 5,
+  "figure_csv_match": [
+    "Supplementary_Calibration_Data.csv",
+    "Supplementary_Table_S2.csv",
+    "Supplementary_Table_S1.csv",
+    "Table1.csv",
+    "source_data/FigureS2.csv",
+    "source_data/FigureS3a.csv",
+    "source_data/Figure1d.csv",
+    "source_data/FigureS4.csv",
+    "source_data/Figure1a.csv",
+    "source_data/FigureS5.csv",
+    "source_data/FigureS3b_c_means.csv",
+    "source_data/Figure1c.csv",
+    "source_data/Figure1b.csv",
+    "source_data/FigureS3b_c_rounds.csv",
+    "source_data/FigureS3a_rounds.csv",
+    "source_data/FigureS1ab.csv",
+    "source_data/Figure2a_curve.csv",
+    "source_data/Figure2a_thresholds.csv",
+    "source_data/Figure2b.csv",
+    "source_data/FigureS1c.csv",
+    "source_data/Figure2a_inputs.csv"
+  ],
+  "network_disabled": true,
+  "original_ledger_required": false,
+  "temporary_index": "runs/project_budget.sqlite; rebuilt from records.jsonl"
+}

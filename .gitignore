@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mpl-cache/
+reproduction*/
+evidence-v1.0.0/
+runs/
+.env*
+*.local.json

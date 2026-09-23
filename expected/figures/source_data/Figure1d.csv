@@ -1,0 +1,5 @@
+role,planned,valid,identical,consistency_valid,stable_correct,stable_incorrect,changed_all_acceptable,changed_any_incorrect,technical_failure
+jev,960,946,886,0.9365750528541226,741,145,33,27,14
+luna,960,960,817,0.8510416666666667,666,151,42,101,0
+gemini,960,960,865,0.9010416666666666,691,174,25,70,0
+deepseek,960,959,651,0.6788321167883211,559,92,111,197,1

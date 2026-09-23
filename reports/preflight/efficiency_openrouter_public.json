@@ -1,0 +1,52 @@
+{
+  "retrieved_at_utc": "2026-09-23T01:21:08Z",
+  "source_urls": [
+    "https://openrouter.ai/docs/api_reference/limits.md",
+    "https://openrouter.ai/api/v1/models?output_modalities=all"
+  ],
+  "raw_snapshot_sha256": {
+    "https://openrouter.ai/docs/api_reference/limits.md": "4d5f0318ef600f651a62b707e8a8ffcc9c63734b6e236eff8d94bb36df526e3c",
+    "https://openrouter.ai/api/v1/models?output_modalities=all": "3e0a0c45161028c5547a8baa6ef89e436a048095309a7aa94d68a7ba89bcd8ec"
+  },
+  "models": {
+    "typesafe/jev-1.13": {
+      "canonical_slug": "typesafe/jev-1.13-20260917",
+      "prompt_usd_per_token": "0.000000042",
+      "completion_usd_per_token": "0"
+    },
+    "openai/gpt-5.6-luna": {
+      "canonical_slug": "openai/gpt-5.6-luna-20260709",
+      "prompt_usd_per_token": "0.0000002",
+      "completion_usd_per_token": "0.0000012"
+    },
+    "google/gemini-3.1-flash-lite": {
+      "canonical_slug": "google/gemini-3.1-flash-lite-20260507",
+      "prompt_usd_per_token": "0.00000025",
+      "completion_usd_per_token": "0.0000015"
+    }
+  },
+  "limits_evidence": {
+    "fixed_account_concurrency_published": false,
+    "documented": [
+      "GET /api/v1/key exposes per-key credit fields including limit_remaining and usage.",
+      "Paid requests may be rejected with 402 when the account in-flight spending budget is full.",
+      "429 can arise from OpenRouter platform protection or the upstream provider; successful responses do not include X-RateLimit headers.",
+      "OpenRouter recommends honoring Retry-After and exponential backoff."
+    ],
+    "account_specific_verification": {
+      "status": "verified_read_only",
+      "retrievals_utc": {
+        "jev": "2026-09-23T01:20:53.470023Z",
+        "openai": "2026-09-23T01:20:54.529732Z",
+        "gemini": "2026-09-23T01:20:55.574387Z"
+      },
+      "keys": {
+        "jev": {"http_status": 200, "limit": 50, "limit_remaining": 49.905134474, "usage": 0.094865526, "limit_reset": null},
+        "openai": {"http_status": 200, "limit": 250, "limit_remaining": 249.6883814, "usage": 0.3116186, "limit_reset": null},
+        "gemini": {"http_status": 200, "limit": 250, "limit_remaining": 249.60747775, "usage": 0.39252225, "limit_reset": null}
+      },
+      "scope": "These are per-key credit limits/remaining values, not concurrency quotas."
+    },
+    "interpretation": "Credit sufficiency is currently positive for all three keys, but no fixed OpenRouter account concurrency number is published or verified. A bounded load test may proceed only with a predeclared cap, immediate 429/402 abort, and no claim that 1/4/8/16/32 are account-safe."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "accounts": {
+    "deepseek": {
+      "balances": [
+        {
+          "currency": "CNY",
+          "total_balance": "245.26"
+        }
+      ],
+      "http_status": 200,
+      "is_available": true
+    },
+    "gemini": {
+      "http_status": 200,
+      "is_free_tier": false,
+      "limit": 250,
+      "limit_remaining": 249.58156425,
+      "usage": 0.41843575
+    },
+    "jev": {
+      "http_status": 200,
+      "is_free_tier": false,
+      "limit": 50,
+      "limit_remaining": 49.905134474,
+      "usage": 0.094865526
+    },
+    "luna": {
+      "http_status": 200,
+      "is_free_tier": false,
+      "limit": 250,
+      "limit_remaining": 249.669359,
+      "usage": 0.330641
+    }
+  },
+  "checked_at": "2026-09-23T01:45:39.372353+00:00",
+  "environment": {
+    "httpx": "0.28.1",
+    "machine": "arm64",
+    "os": "Darwin",
+    "python": "3.12.6 (v3.12.6:a4a2d2b0d85, Sep  6 2024, 16:08:03) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "no_inference_calls": true,
+  "openrouter_prices_match_frozen": true
+}

@@ -1,0 +1,14 @@
+{
+  "condition": "structured",
+  "first_attempt_policy": "one attempt per job; no automatic retries",
+  "inherits": "first_round_v1/rules.json",
+  "primary_subset": {
+    "dataset_id": "nm_main",
+    "label_type": "clear",
+    "repeat_id": 3
+  },
+  "purpose": "pre-specified stability repeat; no post-result prompt/model changes",
+  "repeat_id": 3,
+  "repeat_of": "first_round_v1",
+  "round": 3
+}

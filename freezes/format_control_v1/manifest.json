@@ -1,0 +1,34 @@
+{
+  "connect_timeout_seconds": 10,
+  "file_hashes": {
+    "cases.jsonl": "d5f08d1b1331ee674013dda48360bd96a3be0a1fc7a834df0eb554860eca76de",
+    "jobs.jsonl": "92889344e0a7d20dc874ce444ec65b304dde5734456bc0b338491c674efd168f",
+    "models.json": "4a3391f9b8fefdb299b1dc56cdc96495044540e9dc160c4dcf83f63b671f598a",
+    "protocol.md": "ced18445d00666c1b38732ef70a35e10c686f87bbfde2ba146254c1240a15841",
+    "rules.json": "c6ac3e612917a3dfb31c7fc91e1912455f1b6f5b3ae733a1049e957b9b5179a7"
+  },
+  "freeze_digest": "5778c90a805434a50f50d531c1e4621fc06a4bfa9015bf5f66baabe7aef38474",
+  "max_attempts_per_job": 1,
+  "max_output_tokens": 4096,
+  "n_jobs": 408,
+  "per_model_concurrency": 1,
+  "repeat_id": 1,
+  "schedule_seed": 20260922,
+  "schema_version": 1,
+  "socket_timeout_seconds": 50,
+  "software_hashes": {
+    "analysis/__init__.py": "dd321a92f385569292f005960c274d76911bf5c0c2b7ee14e4ea84844b9f00c3",
+    "analysis/paired.py": "06d7d9254b322aff53c2eed7f137b89ecdaf96004d4c1b8115eccba5c30a37a7",
+    "analysis/scoring.py": "3e00d91f73f4299e999f7e2c31e24537422fd1d09b97b36fa6e5c1530cff8305",
+    "runtime/__init__.py": "6d3b62c4d0f6157b913071371870bb8d54dca70e6348e242d10aa101fd7823e1",
+    "runtime/adapters.py": "cc82a5ec7710753110069a3e6fa6bae8ed4f6c8f03e8bbac5d83bf420f09f1ef",
+    "runtime/formal_plan.py": "3283520a1768551d8fecdd3bfc133df31c3e499880b81e9d3c8a6393fcde019e",
+    "runtime/formal_runner.py": "a3177d1243210dd64dcb3e2b5a6d732751ccd15709c52d84d7a8f41ecaa4c3ae",
+    "runtime/format_control.py": "efb9b6553108a7dbbfeb4f42f9276f8ab387631cb57f6bc649c84e953a36c0a7",
+    "runtime/project_ledger.py": "9350a49f5f538edd3e7209c3afff2bac57b7572f47005cf851d253fba45ff3d5"
+  },
+  "stage": "format_control_v1",
+  "study_id": "jev_triage_20260922",
+  "total_reservation_usd": "2.894309",
+  "total_timeout_seconds": 75
+}

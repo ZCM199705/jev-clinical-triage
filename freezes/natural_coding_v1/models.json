@@ -1,0 +1,40 @@
+[
+  {
+    "api_route": "openrouter_chat",
+    "catalog_canonical_slug": "openai/gpt-5.6-luna-20260709",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "model_requested": "openai/gpt-5.6-luna",
+    "price_usd_per_million_input": "0.20",
+    "price_usd_per_million_output": "1.20",
+    "provider_tag": "openai",
+    "reasoning": {
+      "effort": "none"
+    },
+    "role": "luna"
+  },
+  {
+    "api_route": "openrouter_chat",
+    "catalog_canonical_slug": "google/gemini-3.1-flash-lite-20260507",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "model_requested": "google/gemini-3.1-flash-lite",
+    "price_usd_per_million_input": "0.25",
+    "price_usd_per_million_output": "1.50",
+    "provider_tag": "google-ai-studio",
+    "reasoning": {
+      "effort": "minimal"
+    },
+    "role": "gemini"
+  },
+  {
+    "api_route": "deepseek_direct",
+    "documented_version": "DeepSeek-V4.1-Flash",
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "model_requested": "deepseek-flash",
+    "price_usd_per_million_input_peak_cache_miss": "0.30",
+    "price_usd_per_million_output_peak": "1.20",
+    "role": "deepseek",
+    "thinking": {
+      "type": "disabled"
+    }
+  }
+]

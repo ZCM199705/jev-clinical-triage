@@ -1,0 +1,13 @@
+{
+  "frozen_data_stages": [
+    "first_round_v1",
+    "second_round_v1",
+    "third_round_v1",
+    "format_control_v1",
+    "natural_coding_v1",
+    "efficiency_v1"
+  ],
+  "live_enabled": false,
+  "manuscript_included": false,
+  "version": "1.0.0"
+}

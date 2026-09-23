@@ -1,0 +1,542 @@
+[
+  {
+    "cell_id": "w1_deepseek_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 0,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_luna_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 1,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_deepseek_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 2,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_jev_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 3,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_deepseek_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 4,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_jev_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 5,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_jev_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 6,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_luna_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 7,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_luna_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 8,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_luna_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 9,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_gemini_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 10,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_gemini_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 11,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_jev_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 12,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_luna_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 13,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_gemini_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 14,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_deepseek_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 15,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_jev_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 16,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_gemini_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 17,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_gemini_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 18,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w1_deepseek_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 19,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 1
+  },
+  {
+    "cell_id": "w2_gemini_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 20,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_luna_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 21,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_jev_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 22,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_gemini_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 23,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_luna_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 24,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_jev_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 25,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_jev_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 26,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_luna_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 27,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_gemini_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 28,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_jev_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 29,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_deepseek_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 30,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_deepseek_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 31,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_gemini_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 32,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_gemini_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 33,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_deepseek_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 34,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_deepseek_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 35,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_jev_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 36,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_luna_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 37,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_luna_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 38,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w2_deepseek_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 39,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 2
+  },
+  {
+    "cell_id": "w3_deepseek_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 40,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_gemini_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 41,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_jev_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 42,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_jev_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 43,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_deepseek_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 44,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_luna_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 45,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_gemini_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 46,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_luna_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 47,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_luna_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 48,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_gemini_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 49,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_jev_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 50,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_jev_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 51,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_gemini_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 52,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_luna_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 53,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_jev_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 54,
+    "role": "jev",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_deepseek_c1",
+    "concurrency": 1,
+    "measured_requests": 200,
+    "order": 55,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_deepseek_c8",
+    "concurrency": 8,
+    "measured_requests": 200,
+    "order": 56,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_gemini_c4",
+    "concurrency": 4,
+    "measured_requests": 200,
+    "order": 57,
+    "role": "gemini",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_deepseek_c32",
+    "concurrency": 32,
+    "measured_requests": 200,
+    "order": 58,
+    "role": "deepseek",
+    "warmup_requests": 5,
+    "wave": 3
+  },
+  {
+    "cell_id": "w3_luna_c16",
+    "concurrency": 16,
+    "measured_requests": 200,
+    "order": 59,
+    "role": "luna",
+    "warmup_requests": 5,
+    "wave": 3
+  }
+]

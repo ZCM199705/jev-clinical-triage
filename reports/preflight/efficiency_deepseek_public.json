@@ -1,0 +1,40 @@
+{
+  "retrieved_at_utc": "2026-09-23T01:21:08Z",
+  "source_urls": [
+    "https://api-docs.deepseek.com/quick_start/pricing",
+    "https://api-docs.deepseek.com/quick_start/rate_limit"
+  ],
+  "raw_snapshot_sha256": {
+    "https://api-docs.deepseek.com/quick_start/pricing": "2fecee48bf6ad791bce38d1d5504d8ad5c8b0fd4da93e6dc198ae88ff1a4506a",
+    "https://api-docs.deepseek.com/quick_start/rate_limit": "1190b37c138b132b45ed3fa6e19861e7fa40be95a9a9c5a36104cc88ad26413a"
+  },
+  "model": "deepseek-flash",
+  "pricing_usd_per_1m_tokens": {
+    "input_cache_hit_off_peak": "0.003",
+    "input_cache_hit_peak": "0.006",
+    "input_cache_miss_off_peak": "0.15",
+    "input_cache_miss_peak": "0.30",
+    "output_off_peak": "0.60",
+    "output_peak": "1.20"
+  },
+  "published_concurrency": {
+    "deepseek-flash": 2500,
+    "deepseek-v4-pro": 500,
+    "scope": "account level, regardless of API key",
+    "exceeding_behavior": "HTTP 429",
+    "request_definition": "one concurrent connection from send until response complete"
+  },
+  "account_specific_verification": {
+    "status": "balance_verified_read_only; concurrency_override_unavailable",
+    "retrieved_at_utc": "2026-09-23T01:20:56.809357Z",
+    "http_status": 200,
+    "is_available": true,
+    "balance_infos": [{"currency": "CNY", "granted_balance": "0.00", "topped_up_balance": "245.35", "total_balance": "245.35"}],
+    "scope": "Balance endpoint does not expose a custom concurrency quota; published 2,500 deepseek-flash account ceiling remains the applicable documented limit unless provider confirms an override."
+  },
+  "notes": [
+    "DeepSeek states higher concurrency requires a capacity expansion request.",
+    "Regular users combine all user_id values for concurrency calculation.",
+    "DeepSeek pricing may change; this is a current public-doc snapshot, not a frozen provider contract."
+  ]
+}

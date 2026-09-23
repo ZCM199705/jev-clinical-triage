@@ -1,0 +1,5 @@
+{
+  "files_scanned": 26392,
+  "findings": [],
+  "scope": "credential patterns, personal paths and names; allowlist inspection; raw response hash checks"
+}

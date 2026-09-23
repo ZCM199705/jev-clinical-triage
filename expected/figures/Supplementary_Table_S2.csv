@@ -1,0 +1,10 @@
+experiment,scope,role,planned,valid,acceptable,unresolved
+"Structured JSON, first round",60 main inputs,luna,60,60,44,0
+"Explanation JSON, one sample",60 main inputs,luna,60,60,46,0
+Natural-language consensus,60 main + 8 emergency inputs,luna,68,37,31,31
+"Structured JSON, first round",60 main inputs,gemini,60,60,47,0
+"Explanation JSON, one sample",60 main inputs,gemini,60,60,42,0
+Natural-language consensus,60 main + 8 emergency inputs,gemini,68,49,40,19
+"Structured JSON, first round",60 main inputs,deepseek,60,60,42,0
+"Explanation JSON, one sample",60 main inputs,deepseek,60,60,48,0
+Natural-language consensus,60 main + 8 emergency inputs,deepseek,68,41,36,27
