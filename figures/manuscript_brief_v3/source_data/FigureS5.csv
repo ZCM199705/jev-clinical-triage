@@ -1,0 +1,16 @@
+source,role,cohort,planned,correct,undertriage,overtriage,invalid,agreement_full_plan
+historical,health,main_clear,480,318,43,119,0,0.6625
+historical,health,main_full,960,780,46,134,0,0.8125
+historical,health,main_edge,480,462,3,15,0,0.9625
+current,jev,main_clear,480,353,9,114,4,0.7354166666666667
+current,jev,main_full,960,790,17,146,7,0.8229166666666666
+current,jev,main_edge,480,437,8,32,3,0.9104166666666667
+current,luna,main_clear,480,301,25,154,0,0.6270833333333333
+current,luna,main_full,960,740,36,184,0,0.7708333333333334
+current,luna,main_edge,480,439,11,30,0,0.9145833333333333
+current,gemini,main_clear,480,285,46,149,0,0.59375
+current,gemini,main_full,960,737,46,177,0,0.7677083333333333
+current,gemini,main_edge,480,452,0,28,0,0.9416666666666667
+current,deepseek,main_clear,480,292,17,170,1,0.6083333333333333
+current,deepseek,main_full,960,749,21,189,1,0.7802083333333333
+current,deepseek,main_edge,480,457,4,19,0,0.9520833333333333

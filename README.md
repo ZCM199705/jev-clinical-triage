@@ -14,13 +14,15 @@ python3.12 -m venv .venv
 python -m pip install -r requirements-lock.txt
 ```
 
-Download `evidence-v1.0.0.tar.gz` and `SHA256SUMS` from the [v1.0.0 release](https://github.com/ZCM199705/jev-clinical-triage/releases/tag/v1.0.0). Verify the archive before extracting it:
+Download `evidence-v1.0.0.tar.gz`, `figures-v1.1.0.tar.gz` and `SHA256SUMS` from the [v1.1.0 release](https://github.com/ZCM199705/jev-clinical-triage/releases/tag/v1.1.0). The evidence archive is byte-identical to v1.0.0; v1.1.0 adds the final manuscript figure layout, source data, and reproducibility checks. Verify both archives before extracting the evidence:
 
 ```sh
 shasum -a 256 -c SHA256SUMS
 tar -xzf evidence-v1.0.0.tar.gz
 python reproduce.py --data-dir evidence-v1.0.0 --output-dir reproduction
 ```
+
+The figures archive contains the submitted PDF, editable SVG, 600 dpi TIFF and PNG exports, together with the tagged source tables, legends and layout script. The repository holds the source tables and code; the attachment holds the full rendered figure set.
 
 The output directory must be empty. Expect several minutes, approximately 1 GB of disk space and font-dependent plot rendering. Arial is used if available; Matplotlib may substitute a local sans-serif font. Numeric comparisons do not depend on fonts. `--skip-figures` still recomputes all numeric analyses. No API key, original SQLite file or original machine path is required.
 
@@ -41,11 +43,13 @@ python -m pytest -q tests
 - `expected/`: original numeric reference outputs for verification; these are checked against newly computed results, not used as a substitute for recomputation.
 - Evidence attachment: per-request JSONL records, request/response evidence, complete unit timing, public historical CSVs, provenance and checksums.
 - `DATA_DICTIONARY.md`, `THIRD_PARTY_NOTICES.md`: definitions, source attribution and licensing boundaries.
+- `scripts/make_manuscript_figures_brief_v3.py`: the manuscript figure-layout code; it is run after the original figure scripts during full offline reproduction.
+- `figures/manuscript_brief_v3/`: source CSVs, legends, tables and provenance for the submitted Figure 1, Figure 2 and supplementary figures. The release attachment contains the exact rendered PDF, editable SVG, 600 dpi TIFF and PNG files. The reproduction command checks every CSV in this directory byte-for-byte against regenerated output; image bytes may vary across fonts and graphics backends.
 
 The primary comparison was the first-round JEV–Luna clear-label contrast. The internal freeze was not a public preregistration. Exact secondary testing and combined-round analysis were implemented after collection. Repeated inputs remain clustered by base scenario. Failed requests remain in planned denominators; unknown charges are not zero.
 
 ## Version and citation
 
-Version 1.0.0 is the initial reproducibility release. Cite the versioned URL and the original benchmark (DOI: 10.5281/zenodo.18451491). Formal authorship metadata and a Zenodo DOI are pending; none is implied by the hosting account. The manuscript and author declarations are not included in this repository.
+Version 1.1.0 is the manuscript-figure freeze; version 1.0.0 remains the initial reproducibility release. Cite the versioned URL and the original benchmark (DOI: 10.5281/zenodo.18451491). No Zenodo DOI has been assigned to this repository. The manuscript and author declarations are not included in this repository.
 
 Own code: MIT. Own derived research data: CC BY 4.0 to the extent rights exist. Original benchmark: CC0. Third-party material and model responses are subject to the boundaries in `THIRD_PARTY_NOTICES.md`; no model weights or provider software are distributed.

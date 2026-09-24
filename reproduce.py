@@ -47,7 +47,7 @@ def main():
     env={k:v for k,v in os.environ.items() if not any(t in k.upper() for t in ['API_KEY','TOKEN','SECRET','PASSWORD'])}
     env['PYTHONPATH']=str(guard);env['MPLCONFIGDIR']=str(out/'.mpl-cache')
     scripts=['summarize_three_rounds','analyze_efficiency','analyze_format_explanation','analyze_natural_coding','analyze_chatgpt_health_historical']
-    if not a.skip_figures:scripts+=['make_manuscript_figures','make_manuscript_figures_brief']
+    if not a.skip_figures:scripts+=['make_manuscript_figures','make_manuscript_figures_brief','make_manuscript_figures_brief_v3']
     logs=out/'logs';logs.mkdir()
     for name in scripts:
         print('Reproducing '+name,flush=True)
@@ -63,11 +63,18 @@ def main():
         actual.pop('provenance',None);expected.pop('provenance',None)
         compare(actual,expected,stage)
     figures_checked=[]
+    current_figures_checked=[]
     if not a.skip_figures:
         for p in (ROOT/'expected/figures').rglob('*.csv'):
             q=out/'reports/manuscript_figures_brief_v2'/p.relative_to(ROOT/'expected/figures')
             assert p.read_bytes()==q.read_bytes(),str(q)
             figures_checked.append(str(p.relative_to(ROOT/'expected/figures')))
-    report={'passed':True,'requests':count,'verified_evidence_files':verified,'numeric_analyses_match':5,'figure_csv_match':figures_checked,'network_disabled':True,'original_ledger_required':False,'temporary_index':'runs/project_budget.sqlite; rebuilt from records.jsonl'}
+        archived=ROOT/'figures/manuscript_brief_v3'
+        for p in archived.rglob('*.csv'):
+            q=out/'reports/manuscript_figures_brief_v3'/p.relative_to(archived)
+            assert p.read_bytes()==q.read_bytes(),str(q)
+            current_figures_checked.append(str(p.relative_to(archived)))
+        assert current_figures_checked
+    report={'passed':True,'requests':count,'verified_evidence_files':verified,'numeric_analyses_match':5,'figure_csv_match':figures_checked,'current_manuscript_figure_csv_match':current_figures_checked,'network_disabled':True,'original_ledger_required':False,'temporary_index':'runs/project_budget.sqlite; rebuilt from records.jsonl'}
     (out/'REPRODUCTION_CHECKS.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))
 if __name__=='__main__':main()
