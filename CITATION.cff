@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Cite this versioned figure code and source-data release together with the original clinical triage benchmark."
+title: "Clinical triage API evaluation: final Brief figures and source data"
+type: software
+version: 1.2.0
+date-released: 2026-09-24
+repository-code: "https://github.com/ZCM199705/jev-clinical-triage"
+url: "https://github.com/ZCM199705/jev-clinical-triage/releases/tag/v1.2.0"
+license: MIT
+authors:
+  - family-names: Zheng
+    given-names: Chongming
+  - family-names: Tang
+    given-names: Xiubo
+  - family-names: Zheng
+    given-names: Xin
+  - family-names: Ma
+    given-names: Pengcheng
+  - family-names: Wang
+    given-names: Yi
+  - family-names: Chen
+    given-names: Gang

@@ -1,0 +1,2 @@
+The research-generated figure source tables in this release are licensed under CC BY 4.0.
+The source synthetic benchmark retains its CC0 license and is distributed separately with the v1.1.0 evidence package.

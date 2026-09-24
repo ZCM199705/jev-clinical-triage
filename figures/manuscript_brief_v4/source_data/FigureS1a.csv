@@ -1,0 +1,13 @@
+role,round,cohort,planned,scenarios,correct,undertriage,overtriage,technical_failure,agreement_full_plan
+jev,1,main_full,960,30,790,17,146,7,0.8229166666666666
+jev,2,main_full,960,30,792,20,145,3,0.825
+jev,3,main_full,960,30,790,17,149,4,0.8229166666666666
+luna,1,main_full,960,30,740,36,184,0,0.7708333333333334
+luna,2,main_full,960,30,744,30,186,0,0.775
+luna,3,main_full,960,30,743,31,186,0,0.7739583333333333
+gemini,1,main_full,960,30,737,46,177,0,0.7677083333333333
+gemini,2,main_full,960,30,732,47,181,0,0.7625
+gemini,3,main_full,960,30,737,47,176,0,0.7677083333333333
+deepseek,1,main_full,960,30,749,21,189,1,0.7802083333333333
+deepseek,2,main_full,960,30,733,29,198,0,0.7635416666666667
+deepseek,3,main_full,960,30,738,29,193,0,0.76875

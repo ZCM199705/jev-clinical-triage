@@ -1,0 +1,5 @@
+role,round,cohort,planned,scenarios,correct,undertriage,overtriage,technical_failure,agreement_full_plan
+jev,1,main_full,960,30,790,17,146,7,0.8229166666666666
+luna,1,main_full,960,30,740,36,184,0,0.7708333333333334
+gemini,1,main_full,960,30,737,46,177,0,0.7677083333333333
+deepseek,1,main_full,960,30,749,21,189,1,0.7802083333333333

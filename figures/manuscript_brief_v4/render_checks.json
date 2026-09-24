@@ -1,0 +1,32 @@
+[
+  {
+    "figure": "Figure1",
+    "width_mm": 183.0,
+    "height_mm": 145.0,
+    "text_outside_canvas": []
+  },
+  {
+    "figure": "Figure2",
+    "width_mm": 183.0,
+    "height_mm": 88.0,
+    "text_outside_canvas": []
+  },
+  {
+    "figure": "FigureS1",
+    "width_mm": 183.0,
+    "height_mm": 83.0,
+    "text_outside_canvas": []
+  },
+  {
+    "figure": "FigureS3",
+    "width_mm": 183.0,
+    "height_mm": 105.0,
+    "text_outside_canvas": []
+  },
+  {
+    "figure": "FigureS5",
+    "width_mm": 183.0,
+    "height_mm": 121.0,
+    "text_outside_canvas": []
+  }
+]
